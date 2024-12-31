@@ -1,6 +1,6 @@
 # 🩺 **MediFlow** - Redefining Healthcare, One Block at a Time
 
-[![Deployment Status](https://img.shields.io/badge/Deployment-Live-brightgreen)](Medhttps://mediflow.vercel.app/iFlow)
+[![Deployment Status](https://img.shields.io/badge/Deployment-Live-brightgreen)](https://medi-flow.vercel.app)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/ahkharsha/MediFlow)
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue)](https://www.linkedin.com/in/harsha-kumar-a-271a76203/)
 
@@ -15,16 +15,16 @@
 ## 🚀 **Deployment**
 
 The platform is live and accessible at:  
-<br>*🔗 [MediFlow - MediFlow-mainnet.vercel.app](Medhttps://mediflow.vercel.app/iFlow)*<br><br>
+<br>*🔗 [MediFlow - medi-flow.vercel.app](https://medi-flow.vercel.app)*<br><br>
 
 ---
 
 ## 📜 **Smart Contract**
 
-The Smart Contract is deployed on the Polygon Mainnet at [0xE5a6281b8310CB8B1D2Cd1D90837658368D9B3c9](https://polygonscan.com/address/0xE5a6281b8310CB8B1D2Cd1D90837658368D9B3c9).  
+The Smart Contract is deployed on the **EVM on Flow Testnet** at [0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb](https://evm-testnet.flowscan.io/address/0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb).  
 Visit the link below to view it on the explorer!
 
-*🔗 [Smart Contract on PolygonScan](https://polygonscan.com/address/0xE5a6281b8310CB8B1D2Cd1D90837658368D9B3c9)*
+*🔗 [Smart Contract on FlowScan](https://evm-testnet.flowscan.io/address/0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb)*
 
 ---
 
@@ -50,7 +50,7 @@ Visit the link below to view it on the explorer!
 - **EHR Management**: Acts as a secure and decentralized repository for electronic health records.
 - **Diagnosis and Prescription**: Doctors can diagnose patients and prescribe medicines directly through the platform.
 - **Medicine Purchase**: Patients can conveniently purchase prescribed medicines.
-- **Blockchain Security**: All transactions and records are securely stored on the Polygon blockchain.
+- **Blockchain Security**: All transactions and records are securely stored on the Flow Testnet blockchain.
 
 ---
 
@@ -62,8 +62,8 @@ Our vision is to revolutionize healthcare by leveraging blockchain technology to
 
 ## ⚙ **Technologies Used**
 
-- **Blockchain**: Polygon Mainnet
-- **Token**: POL
+- **Blockchain**: EVM on Flow Testnet
+- **Token**: FLOW
 - **Smart Contracts**: Solidity
 - **Frontend**: Next.js
 - **State Management**: Context API, Web3 Providers
@@ -77,8 +77,8 @@ Our vision is to revolutionize healthcare by leveraging blockchain technology to
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/ahkharsha/xyz.git
-    cd xyz
+    git clone https://github.com/ahkharsha/MediFlow.git
+    cd MediFlow
     ```
 
 2. **Navigate to Client**
@@ -117,7 +117,7 @@ Your application will be up and running at `http://localhost:3000` 🚀
 
 ### **4. Medicine Purchase**
 
-- Patients can purchase prescribed medicines securely using POL tokens.
+- Patients can purchase prescribed medicines securely using FLOW tokens.
 
 ### **5. Health Records Management**
 
@@ -130,14 +130,14 @@ Your application will be up and running at `http://localhost:3000` 🚀
 ### **Phase 1: Development**
 
 - ✅ Build core functionality for account creation and appointment booking.
-- ✅ Deploy smart contracts on Polygon Amoy Testnet
+- ✅ Deploy smart contracts on Flow Testnet
 - ✅ Integrate EHR management features.
 
 ### **Phase 2: Enhancement**
 
 - ✅ Implement prescription and medicine purchase modules.
 - ✅ Launch live version on Vercel.
-- ✅ Deploy smart contract on Polygon Mainnet.
+- ✅ Deploy smart contract on Flow Testnet.
 
 ### **Phase 3: Expansion**
 
@@ -149,7 +149,7 @@ Your application will be up and running at `http://localhost:3000` 🚀
 
 ## 📜 **License**
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/yourusername/MediFlow/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/ahkharsha/MediFlow/blob/main/LICENSE) file for details.
 
 ---
 
@@ -159,7 +159,7 @@ For any inquiries or support, feel free to reach out:
 
 - **Email**: [ahkharsha@gmail.com](mailto:ahkharsha@gmail.com)
 - **LinkedIn**: [A Harsha Kumar](https://www.linkedin.com/in/harsha-kumar-a-271a76203/)
-- **Project Website**: [MediFlow](Medhttps://mediflow.vercel.app/iFlow)
+- **Project Website**: [MediFlow](https://medi-flow.vercel.app)
 
 ---
 

@@ -36,8 +36,8 @@ const networks = {
     blockExplorerUrls: ["https://evm.flowscan.io/"],
   },
   flow_testnet: {
-    chainId: `0x${Number(747).toString(16)}`,
-    chainName: "Flow Mainnet",
+    chainId: `0x${Number(545).toString(16)}`,
+    chainName: "Flow Testnet",
     nativeCurrency: {
       name: "FLOW",
       symbol: "FLOW",
