@@ -35,7 +35,7 @@ const networks = {
     rpcUrls: ["https://mainnet.evm.nodes.onflow.org/"],
     blockExplorerUrls: ["https://evm.flowscan.io/"],
   },
-  flow_mainnet: {
+  flow_testnet: {
     chainId: `0x${Number(747).toString(16)}`,
     chainName: "Flow Mainnet",
     nativeCurrency: {

@@ -1,4 +1,4 @@
-# 🩺 *MediFlow* - Redefining Healthcare, One Block at a Time
+# 🩺 **MediFlow** - Redefining Healthcare, One Block at a Time
 
 [![Deployment Status](https://img.shields.io/badge/Deployment-Live-brightgreen)](Medhttps://mediflow.vercel.app/iFlow)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/ahkharsha/MediFlow)
