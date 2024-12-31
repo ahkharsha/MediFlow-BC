@@ -114,7 +114,7 @@ export default function AadhaarVerification({ onVerified }) {
               gutterBottom
               sx={{ color: "primary.main" }}
             >
-              MediFlow
+              MediVault
             </Typography>
             <Typography variant="h5" sx={{ color: "secondary.main", mb: 5 }}>
               Your Gateway to Smart Real Estate Deals
@@ -202,13 +202,13 @@ export default function AadhaarVerification({ onVerified }) {
           mt="auto"
         >
           <Typography variant="body1" sx={{ fontSize: "1.2rem" }}>
-            © {new Date().getFullYear()} MediFlow. All rights reserved.
+            © {new Date().getFullYear()} MediVault. All rights reserved.
           </Typography>
           <Button
             variant="outlined"
             color="primary"
             startIcon={<GitHubIcon />}
-            href="https://github.com/ahkharsha/MediFlow"
+            href="https://github.com/ahkharsha/MediVault"
             target="_blank"
             rel="noopener noreferrer"
             sx={{
@@ -220,7 +220,7 @@ export default function AadhaarVerification({ onVerified }) {
               },
             }}
           >
-            MediFlow - GitHub
+            MediVault - GitHub
           </Button>
         </Box>
       </Box>
