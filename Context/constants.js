@@ -24,27 +24,38 @@ const PINATA_SECRECT_KEY = process.env.NEXT_PUBLIC_PINATA_SECRECT_KEY;
 
 //NETWORK
 const networks = {
-  polygon: {
-    chainId: `0x${Number(137).toString(16)}`,
-    chainName: "Polygon Mainnet",
+  flow_mainnet: {
+    chainId: `0x${Number(747).toString(16)}`,
+    chainName: "Flow Mainnet",
     nativeCurrency: {
-      name: "POL",
-      symbol: "POL",
+      name: "FLOW",
+      symbol: "FLOW",
       decimals: 18,
     },
-    rpcUrls: ["https://rpc.ankr.com/polygon"],
-    blockExplorerUrls: ["https://polygonscan.com/"],
+    rpcUrls: ["https://mainnet.evm.nodes.onflow.org/"],
+    blockExplorerUrls: ["https://evm.flowscan.io/"],
+  },
+  flow_mainnet: {
+    chainId: `0x${Number(747).toString(16)}`,
+    chainName: "Flow Mainnet",
+    nativeCurrency: {
+      name: "FLOW",
+      symbol: "FLOW",
+      decimals: 18,
+    },
+    rpcUrls: ["https://testnet.evm.nodes.onflow.org/"],
+    blockExplorerUrls: ["https://evm-testnet.flowscan.io/"],
   },
   localhost: {
     chainId: `0x${Number(31337).toString(16)}`,
     chainName: "localhost",
     nativeCurrency: {
-      name: "GO",
-      symbol: "GO",
+      name: "FLOW",
+      symbol: "FLOW",
       decimals: 18,
     },
     rpcUrls: ["http://127.0.0.1:8545/"],
-    blockExplorerUrls: ["https://bscscan.com"],
+    blockExplorerUrls: ["https://evm-testnet.flowscan.io/"],
   },
 };
 
