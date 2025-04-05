@@ -11,6 +11,7 @@ import {
   MdEmail,
   FaArrowRightLong,
   BsRobot,
+  FaVoteYea // ADDED MISSING IMPORT
 } from "../../ReactICON/index";
 import Link from "./Link";
 
