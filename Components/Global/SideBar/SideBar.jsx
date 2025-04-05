@@ -1,21 +1,3 @@
-import React from "react";
-
-//INTERNAL IMPORT
-import {
-  CgMenuGridR,
-  CgMenuHotdog,
-  FaUsers,
-  FaShoppingBag,
-  FaUserAlt,
-  SlCalender,
-  MdEmail,
-  FaArrowRightLong,
-  BsRobot,
-} from "../../ReactICON/index";
-import Link from "./Link";
-
-const ADMIN_ADDRESS = process.env.NEXT_PUBLIC_ADMIN_ADDRESS;
-
 const SideBar = ({
   openComponent,
   setOpenComponent,
@@ -24,48 +6,30 @@ const SideBar = ({
   userType,
   address,
 }) => {
+  const redirectToDAO = () => {
+    window.open("https://med-flow.vercel.app", "_blank");
+  };
+
   return (
     <div className="deznav">
       <div className="deznav-scroll">
         <ul className="metismenu" id="menu">
+          {/* REST OF ORIGINAL SIDEBAR CODE */}
           {address == ADMIN_ADDRESS.toLowerCase() && (
             <li>
               <a className="has-arrow ai-icon" aria-expanded="false">
-                <i>
-                  <CgMenuGridR />
-                </i>
-                <span
-                  onClick={() => setOpenComponent("Home")}
-                  className="nav-text"
-                >
+                <i><CgMenuGridR /></i>
+                <span onClick={() => setOpenComponent("Home")} className="nav-text">
                   Dashboard
                 </span>
               </a>
               <ul aria-expanded="false">
-                <Link
-                  name={"Patient"}
-                  handleClick={() => setOpenComponent("Patient")}
-                />
-                <Link
-                  name={"Doctor"}
-                  handleClick={() => setOpenComponent("Doctor")}
-                />
-                <Link
-                  name={"Add Medicine"}
-                  handleClick={() => setOpenComponent("Add Medicine")}
-                />
-                <Link
-                  name={"All Appoinments"}
-                  handleClick={() => setOpenComponent("All Appoinments")}
-                />
-                <Link
-                  name={"User"}
-                  handleClick={() => setOpenComponent("User")}
-                />
-                <Link
-                  name={"Update"}
-                  handleClick={() => setOpenComponent("UpdateAdmin")}
-                />
+                <Link name={"Patient"} handleClick={() => setOpenComponent("Patient")} />
+                <Link name={"Doctor"} handleClick={() => setOpenComponent("Doctor")} />
+                <Link name={"Add Medicine"} handleClick={() => setOpenComponent("Add Medicine")} />
+                <Link name={"All Appoinments"} handleClick={() => setOpenComponent("All Appoinments")} />
+                <Link name={"User"} handleClick={() => setOpenComponent("User")} />
+                <Link name={"Update"} handleClick={() => setOpenComponent("UpdateAdmin")} />
               </ul>
             </li>
           )}
@@ -143,6 +107,15 @@ const SideBar = ({
               )}
             </ul>
           </li>
+
+          {/* DAO REDIRECT BUTTON - MOVED ABOVE SHOP */}
+          <li>
+            <a className="ai-icon" onClick={redirectToDAO}>
+              <i><FaVoteYea /></i>
+              <span className="nav-text">Medical DAO</span>
+            </a>
+          </li>
+
           <li>
             <a
               className="ai-icon"
@@ -155,6 +128,7 @@ const SideBar = ({
               <span className="nav-text">Shop</span>
             </a>
           </li>
+          
           <li>
             <a
               className="ai-icon"
