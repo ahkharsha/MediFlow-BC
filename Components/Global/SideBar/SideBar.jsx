@@ -11,7 +11,6 @@ import {
   MdEmail,
   FaArrowRightLong,
   BsRobot,
-  FaVoteYea // ADDED MISSING IMPORT
 } from "../../ReactICON/index";
 import Link from "./Link";
 
@@ -37,18 +36,41 @@ const SideBar = ({
           {address == ADMIN_ADDRESS.toLowerCase() && (
             <li>
               <a className="has-arrow ai-icon" aria-expanded="false">
-                <i><CgMenuGridR /></i>
-                <span onClick={() => setOpenComponent("Home")} className="nav-text">
+                <i>
+                  <CgMenuGridR />
+                </i>
+                <span
+                  onClick={() => setOpenComponent("Home")}
+                  className="nav-text"
+                >
                   Dashboard
                 </span>
               </a>
               <ul aria-expanded="false">
-                <Link name={"Patient"} handleClick={() => setOpenComponent("Patient")} />
-                <Link name={"Doctor"} handleClick={() => setOpenComponent("Doctor")} />
-                <Link name={"Add Medicine"} handleClick={() => setOpenComponent("Add Medicine")} />
-                <Link name={"All Appoinments"} handleClick={() => setOpenComponent("All Appoinments")} />
-                <Link name={"User"} handleClick={() => setOpenComponent("User")} />
-                <Link name={"Update"} handleClick={() => setOpenComponent("UpdateAdmin")} />
+                <Link
+                  name={"Patient"}
+                  handleClick={() => setOpenComponent("Patient")}
+                />
+                <Link
+                  name={"Doctor"}
+                  handleClick={() => setOpenComponent("Doctor")}
+                />
+                <Link
+                  name={"Add Medicine"}
+                  handleClick={() => setOpenComponent("Add Medicine")}
+                />
+                <Link
+                  name={"All Appoinments"}
+                  handleClick={() => setOpenComponent("All Appoinments")}
+                />
+                <Link
+                  name={"User"}
+                  handleClick={() => setOpenComponent("User")}
+                />
+                <Link
+                  name={"Update"}
+                  handleClick={() => setOpenComponent("UpdateAdmin")}
+                />
               </ul>
             </li>
           )}
@@ -130,7 +152,9 @@ const SideBar = ({
           {/* DAO REDIRECT BUTTON - MOVED ABOVE SHOP */}
           <li>
             <a className="ai-icon" onClick={redirectToDAO}>
-              <i><FaVoteYea /></i>
+              <i>
+                <FaUsers />
+              </i>
               <span className="nav-text">Medical DAO</span>
             </a>
           </li>
@@ -147,7 +171,7 @@ const SideBar = ({
               <span className="nav-text">Shop</span>
             </a>
           </li>
-          
+
           <li>
             <a
               className="ai-icon"
@@ -183,7 +207,10 @@ const SideBar = ({
         </div>
         <div className="copyright">
           <p className="fs-14 font-w200">
-            <strong className="font-w400">MediFlow Hospital Admin Dashboard </strong>©2024 All Rights Reserved
+            <strong className="font-w400">
+              MediFlow Hospital Admin Dashboard{" "}
+            </strong>
+            ©2024 All Rights Reserved
           </p>
           <p className="fs-12">
             Made with <span className="heart" /> by @CryptoVentureInnovators
