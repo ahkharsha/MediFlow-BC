@@ -25,7 +25,7 @@ const SideBar = ({
   address,
 }) => {
   const redirectToDAO = () => {
-    window.open("https://medflow-dao.vercel.app");
+  window.location.href = "https://medflow-dao.vercel.app";
   };
 
   return (
