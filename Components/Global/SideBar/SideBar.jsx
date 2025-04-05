@@ -1,3 +1,21 @@
+import React from "react";
+
+//INTERNAL IMPORT
+import {
+  CgMenuGridR,
+  CgMenuHotdog,
+  FaUsers,
+  FaShoppingBag,
+  FaUserAlt,
+  SlCalender,
+  MdEmail,
+  FaArrowRightLong,
+  BsRobot,
+} from "../../ReactICON/index";
+import Link from "./Link";
+
+const ADMIN_ADDRESS = process.env.NEXT_PUBLIC_ADMIN_ADDRESS;
+
 const SideBar = ({
   openComponent,
   setOpenComponent,
