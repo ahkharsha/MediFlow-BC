@@ -114,7 +114,7 @@ export default function AadhaarVerification({ onVerified }) {
               gutterBottom
               sx={{ color: "primary.main" }}
             >
-              MediFlow
+              PolyMed
             </Typography>
             <Typography variant="h5" sx={{ color: "secondary.main", mb: 5 }}>
             Revolutionizing Healthcare, One Block at a Time
@@ -202,13 +202,13 @@ export default function AadhaarVerification({ onVerified }) {
           mt="auto"
         >
           <Typography variant="body1" sx={{ fontSize: "1.2rem" }}>
-            © {new Date().getFullYear()} MediFlow. All rights reserved.
+            © {new Date().getFullYear()} PolyMed. All rights reserved.
           </Typography>
           <Button
             variant="outlined"
             color="primary"
             startIcon={<GitHubIcon />}
-            href="https://github.com/ahkharsha/MediFlow"
+            href="https://github.com/ahkharsha/PolyMed"
             target="_blank"
             rel="noopener noreferrer"
             sx={{
@@ -220,7 +220,7 @@ export default function AadhaarVerification({ onVerified }) {
               },
             }}
           >
-            MediFlow - GitHub
+            PolyMed - GitHub
           </Button>
         </Box>
       </Box>
