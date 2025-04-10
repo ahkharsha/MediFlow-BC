@@ -25,7 +25,7 @@ const SideBar = ({
   address,
 }) => {
   const redirectToDAO = () => {
-  window.location.href = "https://polymed-dao.vercel.app";
+  window.location.href = "https://polmed-dao.vercel.app";
   };
 
   return (
