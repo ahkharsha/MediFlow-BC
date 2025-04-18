@@ -25,7 +25,7 @@ const SideBar = ({
   address,
 }) => {
   const redirectToDAO = () => {
-  window.location.href = "https://polmed-dao.vercel.app";
+  window.location.href = "https://medflow-dao.vercel.app";
   };
 
   return (
@@ -208,7 +208,7 @@ const SideBar = ({
         <div className="copyright">
           <p className="fs-14 font-w200">
             <strong className="font-w400">
-              PolyMed Hospital Admin Dashboard{" "}
+              MediFlow Hospital Admin Dashboard{" "}
             </strong>
             ©2024 All Rights Reserved
           </p>

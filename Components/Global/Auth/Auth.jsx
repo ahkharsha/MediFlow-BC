@@ -60,7 +60,7 @@ const Auth = ({
                         <p className="mb-0">
                           Welcome to{" "}
                           <a className="text-primary">
-                            PolyMed: Your Health, Our Priority
+                            MediFlow: Your Health, Our Priority
                           </a>{" "}
                           where compassionate care meets exceptional medical
                           expertise. <FaArrowRightLong />
